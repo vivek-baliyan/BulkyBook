@@ -80,7 +80,7 @@ namespace BulkyBookWeb.Controllers
         }
 
         //GET
-        public IActionResult Delete(int id)
+        public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
             {
